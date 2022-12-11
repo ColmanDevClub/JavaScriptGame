@@ -16,9 +16,9 @@ The game will contain:
 
 - A board of 25x25 slots with the player/monsters on the board slots.
 - A player can move using the arrow keys, he will move 1 slot for every key pressed.
-- The board will contain your player, monsters, and pick up items (+1 hp, +1 attack).
+- The board will contain your player, monsters, and pick up items (+10 hp, +5 attack).
 - Each pick up item will upgrade the player status.
-- The player wil lstart with 3 lives.
+- The player will start the game with 100 health points.
 - When the player will move into a slot with a monster on it he will enter combat.
 For each combat turn, the player will attack the monster, and the monster will attack the player and vice versa.
 The battle will end when one of the sided will run out of hp.
