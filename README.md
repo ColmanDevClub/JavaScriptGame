@@ -1,9 +1,38 @@
 # JavaScriptGame
 
-Javascript game:
+You will need to create fun interactive game using JS.
 
-h=
+![image](https://user-images.githubusercontent.com/34707669/206923131-88bd771d-e231-4de9-bbc4-fedc88f70cdf.png)
 
-Things you must have:
-1. 25*25 matrix 
-2. 2
+The game will contain:
+-
+
+- A board of 25x25 slots with the player/monsters on the board slots.
+- A player can move using the arrow keys, he will move 1 slot for every key pressed.
+- The board will contain your player, monsters and pick up items (+1 hp, +1 attack).
+- Each pick up item will upgrade the player status.
+- Player wil start with 3 lifes.
+- When the player will move into a slot with monster on it he will enter combat, each turn the player will attack the monster, the monster will attack the player.
+The battle will end when one of sided will run out of hp.
+
+- Game over:
+  - Game lost when player run out of hp
+  - Game won when player arrives detination (it can be generated randomly or static)
+
+
+------
+
+You must implement those thing:
+-
+
+1. 25*25 matrix representing the board 
+2. show the game status after every move (player hp, if he in battle, attack points)
+3. When the player will enter a battle you will need to print all the attacks between the player and the monster +
+    combat lost/won.
+---
+
+Bonus
+-
+
+Add some UI for the game and not just a console game.
+
