@@ -45,3 +45,6 @@ Bonus
 
 Add some UI for the game and not just a console game.
 
+
+![image](https://user-images.githubusercontent.com/34707669/206924758-7d5fb794-c80d-4f50-9e77-8f0f1418dc0b.png)
+
