@@ -1,3 +1,2 @@
 //123
-kokokokoko
-//fdfdfdfd
+gamePanel = [];
