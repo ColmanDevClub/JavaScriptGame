@@ -31,7 +31,8 @@ function init() {
     })
     const playerPositionOnBoardI = player.currentPositionOnBoard.split(",")[0]
     const playerPositionOnBoardJ = player.currentPositionOnBoard.split(",")[1]
-
+    console.log("First Move")
+    console.log(player)
     for (let i =0; i< rows; i++){
     myArr[i] = [];
         for (let j=0; j<cols; j++){
