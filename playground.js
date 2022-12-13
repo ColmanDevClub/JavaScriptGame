@@ -29,9 +29,14 @@ function init() {
         powerRate: "15",
         currentPositionOnBoard: "2,2"
     })
+
+    console.log("First Move")
+    //console.log(player.currentPositionOnBoard= "4,2");
     const playerPositionOnBoardI = player.currentPositionOnBoard.split(",")[0]
     const playerPositionOnBoardJ = player.currentPositionOnBoard.split(",")[1]
-    console.log("First Move")
+    console.log(player)
+    const currentRate = parseInt(player.powerRate) + parseInt(pickUpItemsList[1].powerChange)
+    player.powerRate = currentRate.toString();
     console.log(player)
     for (let i =0; i< rows; i++){
     myArr[i] = [];
