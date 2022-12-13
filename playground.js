@@ -1,15 +1,7 @@
-function randomNumber(){
-    const number = Math.floor(Math.random() * 5);
-    return number;
-}
 function init() {
     const rows = 5;
     const cols = 5;
     let myArr = [];
-    let randomNumber1 = 0;
-    randomNumber1 = randomNumber();
-    randomNumber2 = randomNumber();
-
     const player = {
         name: "Yuval",
         currentPositionOnBoard: "0,0",
@@ -40,7 +32,6 @@ function init() {
     const playerPositionOnBoardI = player.currentPositionOnBoard.split(",")[0]
     const playerPositionOnBoardJ = player.currentPositionOnBoard.split(",")[1]
 
-
     for (let i =0; i< rows; i++){
     myArr[i] = [];
         for (let j=0; j<cols; j++){
@@ -63,8 +54,8 @@ function init() {
                     myArr[i][j] = "|   ?   |"
                 }
             } 
+        }   
     }
-}
     console.log(myArr);
 }
 init();
